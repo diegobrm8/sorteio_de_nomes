@@ -1,7 +1,0 @@
-nome = input('digite seu nome completo:')
-print(nome.upper())
-print(nome.lower())
-r = nome.split()
-nomecompleto = (''.join(r))
-dividido = nome.split()
-print(f'Seu nome tem ao todo {len(nomecompleto)} caracteres e seu primeiro nome tem {(len(dividido[0]))} caracteres')
